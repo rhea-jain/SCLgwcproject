@@ -1,0 +1,57 @@
+#myphoto {
+	width: 100px;
+	border-radius: 50%;
+}
+
+h1 {
+  background-color: rgba(30,160, 400, 0.7);
+  font-family: Rockwell, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+#summary {
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+
+	/* Fix Position */
+	top: 0;
+	left: 0;
+	position: fixed;
+
+	/* Fix the font color */
+	color: #bbb;khpuho
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+
+	/* Center everything */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inner{
+	margin-left: 150px;
+	padding-right: 40px;
+}
+
+
+.content {
+	margin-left: 450px;
+	margin-top: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h2 {
+	color: #333;
+	font-size: 45px;
+}
